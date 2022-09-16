@@ -5,7 +5,7 @@ ascii_chars1 = "@%#*+=-:. "
 ascii_chars2 = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. "
 len_ac = len(ascii_chars1)
 # image = Image.open(input("Path to the image to convert: ")).convert("L")
-image = Image.open("cat.png").convert("L")
+image = Image.open("lion.webp").convert("L")
 pixels = image.load()
 size = image.size
 print(size)
