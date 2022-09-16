@@ -4,7 +4,7 @@ from time import sleep, time
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('image', nargs=1)
+parser.add_argument('input_image', nargs=1)
 
 args = parser.parse_args()
 
