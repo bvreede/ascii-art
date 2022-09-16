@@ -10,9 +10,11 @@ This project can be run from the command line with
 python imtascii.py
 ```
 
-This will generate an ASCII version of
+This will generate an ASCII version of the template image:
+
 ![](cat.png)
 
+Namely:
 ```
 (225, 224)
 
