@@ -1,11 +1,20 @@
 from PIL import Image
 from time import sleep, time
 
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('image', nargs=1)
+
+args = parser.parse_args()
+
+img_arg = args.image[0]
+
+
 ascii_chars1 = "@%#*+=-:. "
 ascii_chars2 = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. "
 len_ac = len(ascii_chars1)
-# image = Image.open(input("Path to the image to convert: ")).convert("L")
-image = Image.open("cat.png").convert("L")
+image = Image.open(img_arg).convert("L")
 pixels = image.load()
 size = image.size
 print(size)
