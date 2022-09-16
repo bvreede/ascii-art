@@ -8,7 +8,7 @@ parser.add_argument('input_image', nargs=1)
 
 args = parser.parse_args()
 
-img_arg = args.image[0]
+img_arg = args.input_image[0]
 
 
 ascii_chars1 = "@%#*+=-:. "
