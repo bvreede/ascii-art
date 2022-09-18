@@ -32,3 +32,4 @@ for y in range(0, size[1], d*2):
 end = time()
 
 print(f"Total characters: {i}\nTime to execute: {end-start}\nx: {int(size[0] / d)} | y: {int(size[1]/(d*2))}")
+print("This is a test branch from Zengjing")
